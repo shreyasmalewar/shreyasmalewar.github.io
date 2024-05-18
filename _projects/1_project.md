@@ -3,7 +3,6 @@ layout: page
 title: Regularization experiments
 description: Exploring complex regularization techniques for Image Classification
 
-
 img: /assets/img/12.jpg
 importance: 1
 category: work
