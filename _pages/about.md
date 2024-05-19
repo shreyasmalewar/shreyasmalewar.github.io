@@ -3,7 +3,6 @@ layout: about
 title: about
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-# subtitle: Computer Science Grad student @[USC](usc.edu). Research Assistant
 
 profile:
   align: right
