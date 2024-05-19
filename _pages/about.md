@@ -17,7 +17,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Computer Science Grad student @[USC](https://www.usc.edu/){:target="\_blank"}. Research Assistant @[Radiomics](https://sites.usc.edu/uscradiomicslab/){:target="\_blank"}
+Computer Science Grad student at <a href="https://www.usc.edu/" target="_blank">USC</a>. Research Assistant at <a href="https://sites.usc.edu/uscradiomicslab/" target="_blank">Radiomics<a>.
 
 Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
