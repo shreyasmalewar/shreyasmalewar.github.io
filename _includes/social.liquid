@@ -1,32 +1,38 @@
 {% if site.email %}
-  <a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
+  <a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fa-solid fa-envelope {{ site.social_icon_size }}"></i></a>
 {% endif %}
 {% if site.telegram_username %}
-  <a href="https://telegram.me/{{ site.telegram_username }}" title="telegram"><i class="fa-brands fa-telegram"></i></a>
+  <a href="https://telegram.me/{{ site.telegram_username }}" title="telegram"><i class="fa-brands fa-telegram {{ site.social_icon_size }}"></i></a>
 {% endif %}
 {% if site.whatsapp_number %}
-  <a href="https://wa.me/{{ site.whatsapp_number }}" title="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+  <a href="https://wa.me/{{ site.whatsapp_number }}" title="whatsapp"><i class="fa-brands fa-whatsapp {{ site.social_icon_size }}"></i></a>
 {% endif %}
 {% if site.orcid_id %}
-  <a href="https://orcid.org/{{ site.orcid_id }}" title="ORCID"><i class="ai ai-orcid"></i></a>
+  <a href="https://orcid.org/{{ site.orcid_id }}" title="ORCID"><i class="ai ai-orcid {{ site.social_icon_size }}"></i></a>
 {% endif %}
 {% if site.scholar_userid %}
-  <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+  <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar"
+    ><i class="ai ai-google-scholar {{ site.social_icon_size }}"></i
+  ></a>
 {% endif %}
 {% if site.semanticscholar_id %}
-  <a href="https://www.semanticscholar.org/author/{{ site.semanticscholar_id }}" title="Semantic Scholar"><i class="ai ai-semantic-scholar"></i></a>
+  <a href="https://www.semanticscholar.org/author/{{ site.semanticscholar_id }}" title="Semantic Scholar"
+    ><i class="ai ai-semantic-scholar {{ site.social_icon_size }}"></i
+  ></a>
 {% endif %}
 {% if site.publons_id %}
-  <a href="https://publons.com/a/{{ site.publons_id }}/" title="Publons"><i class="ai ai-publons"></i></a>
+  <a href="https://publons.com/a/{{ site.publons_id }}/" title="Publons"><i class="ai ai-publons {{ site.social_icon_size }}"></i></a>
 {% endif %}
 {% if site.lattes_id %}
-  <a href="http://lattes.cnpq.br/{{ site.lattes_id }}" target="_blank" title="Lattes"><i class="ai ai-lattes"></i></a>
+  <a href="http://lattes.cnpq.br/{{ site.lattes_id }}" target="_blank" title="Lattes"><i class="ai ai-lattes {{ site.social_icon_size }}"></i></a>
 {% endif %}
 {% if site.osf_id %}
-  <a href="https://osf.io/{{ site.osf_id }}/" title="Open Science Framework"><i class="ai ai-osf"></i></a>
+  <a href="https://osf.io/{{ site.osf_id }}/" title="Open Science Framework"><i class="ai ai-osf {{ site.social_icon_size }}"></i></a>
 {% endif %}
 {% if site.research_gate_profile %}
-  <a href="https://www.researchgate.net/profile/{{site.research_gate_profile}}/" title="ResearchGate"><i class="ai ai-researchgate"></i></a>
+  <a href="https://www.researchgate.net/profile/{{site.research_gate_profile}}/" title="ResearchGate"
+    ><i class="ai ai-researchgate {{ site.social_icon_size }}"></i
+  ></a>
 {% endif %}
 {% if site.ieee_id %}
   <a href="https://ieeexplore.ieee.org/author/{{site.ieee_id}}/" title="IEEE Xplore"><i class="ai ai-ieee"></i></a>
@@ -38,13 +44,15 @@
   <a href="https://www.scopus.com/authid/detail.uri?authorId={{site.scopus_id}}" title="Scopus"><i class="ai ai-scopus"></i></a>
 {% endif %}
 {% if site.github_username %}
-  <a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fa-brands fa-github"></i></a>
+  <a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fa-brands fa-github {{ site.social_icon_size }}"></i></a>
 {% endif %}
 {% if site.linkedin_username %}
-  <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+  <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn"
+    ><i class="fa-brands fa-linkedin {{ site.social_icon_size }}"></i
+  ></a>
 {% endif %}
 {% if site.x_username %}
-  <a href="https://twitter.com/{{ site.x_username }}" title="X"><i class="fa-brands fa-x-twitter"></i></a>
+  <a href="https://twitter.com/{{ site.x_username }}" title="X"><i class="fa-brands fa-x-twitter {{ site.social_icon_size }}"></i></a>
 {% endif %}
 {% if site.mastodon_username %}
   <a rel="me" href="https://{{ site.mastodon_username  }}" title="Mastodon"><i class="fa-brands fa-mastodon"></i></a>
@@ -101,7 +109,7 @@
   <a href="https://unsplash.com/@{{ site.unsplash_id }}" title="Unsplash"><i class="fa-brands fa-unsplash"></i></a>
 {% endif %}
 {% if site.instagram_id %}
-  <a href="https://instagram.com/{{ site.instagram_id }}" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+  <a href="https://instagram.com/{{ site.instagram_id }}" title="Instagram"><i class="fa-brands fa-instagram {{ site.social_icon_size }}"></i></a>
 {% endif %}
 {% if site.facebook_id %}
   <a href="https://facebook.com/{{ site.facebook_id }}" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
