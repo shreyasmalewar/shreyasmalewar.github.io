@@ -16,9 +16,15 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Computer Science Grad student at <a href="https://www.usc.edu/" target="_blank">USC</a>. Research Assistant at <a href="https://sites.usc.edu/uscradiomicslab/" target="_blank">Radiomics<a>.
+I am a Master's student in Computer Science at <a href="https://www.usc.edu/" target="_blank">USC</a> and a Research Assistant at <a href="https://sites.usc.edu/uscradiomicslab/" target="_blank">Radiomics Lab<a>.
 
-TO DO
+<!-- I am fortunate to be advised by <a href="https://keck.usc.edu/faculty-search/vinay-anant-duddalwar/" target="_blank">Dr Vinay Duddalwar<a>  and <a href="https://viterbi.usc.edu/directory/faculty/Oberai/Assad" target="_blank"> Dr Assad Oberai<a>. -->
+
+My research focuses on developing deep learning models to solve segmentation problems in computed tomography scans. I have a keen interest in foundation models for medical imaging, MRI reconstruction, connectomics and neuroimaging.
+
+I believe that food is a way of life and love to indulge in various cuisines, this also makes me a dedicated fitness enthusiast to compensate for my love for food.
+
+Reading about finance, science and technology is a "fun" thing I do in my free time.
 
 <!-- Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
