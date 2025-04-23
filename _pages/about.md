@@ -15,7 +15,7 @@ news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-
+##### Computer Scientist | AI Research & Medical Imaging
 I am a Master's student in Computer Science (Graduating May 2025) at <a href="https://www.usc.edu/" target="_blank">USC</a> and a Research Assistant at <a href="https://sites.usc.edu/uscradiomicslab/" target="_blank">Radiomics Lab<a>.
 
 <!-- I am fortunate to be advised by <a href="https://keck.usc.edu/faculty-search/vinay-anant-duddalwar/" target="_blank">Dr Vinay Duddalwar<a>  and <a href="https://viterbi.usc.edu/directory/faculty/Oberai/Assad" target="_blank"> Dr Assad Oberai<a>. -->
