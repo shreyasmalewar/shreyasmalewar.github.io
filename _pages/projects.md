@@ -39,4 +39,3 @@ horizontal: true
   - Developed a student recommendation system for higher education institutions.
   - Utilized clustering analysis to identify student groups with similar interests.
   - Contributed to the field of Educational Data Mining (EDM) by applying it to enhance student connections with relevant interest groups.
-
