@@ -208,7 +208,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ["_pages"]
+include: ["_pages", "assets/img"]
 exclude:
   - bin/
   - CONTRIBUTING.md
