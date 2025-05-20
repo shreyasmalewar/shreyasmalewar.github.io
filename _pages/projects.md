@@ -9,6 +9,16 @@ display_categories: [work, fun]
 horizontal: true
 ---
 
+- #### Brain Tumor 3D Image Segmentation: Comparative Analysis
+
+  [Report](/assets/pdf/CSCI566_Deep_Learning_Final_Paper.pdf){:target="\_blank"}
+
+  - Benchmarked four leading 3D deep learning models—3D U-Net, 3D ResNet, nnU-Net, and SegFormer3D on the BraTS 2023 MRI dataset for brain tumor segmentation using metrics like Dice score, F1-score, and IoU.
+  - SegFormer3D achieved the highest F1-score and precision due to its transformer-based architecture, while nnU-Net delivered the best Dice and IoU scores through its self-adaptive design and preprocessing.
+  - Our analysis highlights critical trade-offs between accuracy and efficiency, offering actionable insights for deploying segmentation models in real-world clinical workflows.
+
+<br>
+
 - #### Exploring Complex Regularization techniques for Image Classification
 
   [Report](/assets/pdf/CSCI-567-Final-Report.pdf){:target="\_blank"}
