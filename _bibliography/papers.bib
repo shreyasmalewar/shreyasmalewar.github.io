@@ -56,14 +56,19 @@ Conclusions
 EfficientNet and nnUNetv2 were the top-performing models for detection and segmentation, respectively. Radiomic features derived from deep learning-based segmentations were comparable to manual segmentations, supporting clinical applicability. Further analysis of lesion detection and spatial distribution underscores the models' potential for improving diagnostic workflows and patient outcomes.}
 }
 
-@article{PAWAN2025100006,
-  bibtex_show={true},
-  title = {Analyzing Foundation Methods for Segmentation of Osseous Metastatic Lesions from Prostate Cancer Computed Tomography [Under Review]},
-  journal = {European Journal of Radiology Artificial Intelligence},
-  volume = {2},
-  preview={elsevier.png},
-  pages = {100006},
-  year = {2026},
-  author = {S. J. Pawan* and Shreyas Malewar* and Inga Van Buren and Ian Smith and Joseph Matthew Rich and R Prajwal and Darryl H. Hwang and Xiaomeng Lei and Steven Y. Cen and Timothy Triche and Amir Goldkorn and Passant Mohamed and Vinay Duddalwar and Assad Oberai},
-  keywords = {Bone metastasis, Foundation Models, Computed tomography, Deep learning, Prostate cancer},
+@article{PAWAN2026100058,
+bibtex_show={true},
+title = {Analyzing foundation models for segmentation of osseous metastatic lesions in prostate cancer on CT scans},
+journal = {European Journal of Radiology Artificial Intelligence},
+volume = {5},
+preview={elsevier.png},
+pages = {100058},
+year = {2026},
+issn = {3050-5771},
+pdf = {analyzing-foundation-model-for-segmentation.pdf},
+doi = {https://doi.org/10.1016/j.ejrai.2025.100058},
+url = {https://www.sciencedirect.com/science/article/pii/S3050577125000568},
+author = {S.J. Pawan and Shreyas Malewar and Inga {Van Buren} and Ian Smith and Joseph Rich and R. Prajwal and Darryl H. Hwang and Xiaomeng Lei and Steven Y. Cen and Timothy Triche and Amir Goldkorn and Passant Mohamed and Assad A. Oberai and Vinay Duddalwar},
+keywords = {Artificial intelligence, Segmentation, Foundation models, Computed tomography, Prostate cancer, Metastatic lesions},
+abstract = {In metastatic prostate adenocarcinoma, accurate identification and quantification of metastatic lesions from CT images are essential for monitoring disease progression and evaluating therapeutic response. This study conducts a comparative evaluation of supervised learning and foundation model approaches for lesion segmentation, focusing on the zero-shot performance in a minimal computation setting. This comparison reflects real-world scenarios, where supervised learning is feasible when labeled data is available, whereas foundation models provide a flexible alternative in the absence of labeled. Furthermore, we investigate strategies to integrate supervised learning with foundation model methods. We first assess the performance of nnUNetv2, a state-of-the-art supervised segmentation framework, which achieved a Dice Similarity Coefficient (DSC) of 0.73 (95 % CI: 0.68–0.78). This serves as the baseline for comparison against three segmentation foundation models SaMMed2D, SAM, and SAM2, when prompted using domain expert annotations (DEP) via bounding box. In the integrated approach, we examine nnUNetv2-generated prompts (nP) and domain expert prompts (DEP), along with their combinatorial operations with the baseline. While nP-based prompting combinations, such as SAM (DSC: 0.74 (95 % CI: 0.66–0.82; p = 0.06)) and SAM2 (DSC: 0.74 (95 % CI: 0.64–0.84; p = 0.07)), showed improved mean performance, none achieved statistically significant gains over the nnUNetv2 baseline. These findings highlight the robustness of supervised approaches like nnUNetv2 and suggest that while foundation models offer flexibility, their integration through prompting may require more adaptive strategies to yield tangible improvements in medical image segmentation.}
 }}
