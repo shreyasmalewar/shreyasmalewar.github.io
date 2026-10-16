@@ -27,7 +27,8 @@ jobs:
           changes: |
             {
               "giscus.repo": "${{ github.repository }}",
-              "baseurl": ""
+              "baseurl": "",
+              "imagemagick.enabled": false
             }
       - name: Install and Build 🔧
         run: |
